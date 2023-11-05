@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "vstats"
-version = "0.0.2"
-description = "A small python package providing tools for statistics"
+version = "0.0.3"
+description = "A small Python package providing tools for statistics"
 authors = ["J. Janka"]
 license = "MIT"
 readme = "README.md"
