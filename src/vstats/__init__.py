@@ -1,4 +1,4 @@
-"""A small python package providing tools for statistics.
+"""A small Python package providing tools for statistics.
 An accompanying package for visualization is `vplotly`.
 """
 from importlib.metadata import version
