@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "vstats"
-version = "0.0.1"
+version = "0.0.2"
 description = "A small python package providing tools for statistics"
 authors = ["J. Janka"]
 license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "=3.8.1,<4.0"  # Dec. 18 2019
+python = ">=3.8.1,<4.0"  # Dec. 18 2019
 statsmodels = ">=0.12.0"  # Aug. 27 2020
 scipy = ">=1.5.1"  # July 5 2020
 pandas = ">=1.0.1"  # Feb. 5 2020
