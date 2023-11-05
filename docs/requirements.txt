@@ -1,0 +1,4 @@
+myst-nb
+sphinx.ext.autodoc
+sphinx.ext.napoleon
+sphinx-rtd-theme

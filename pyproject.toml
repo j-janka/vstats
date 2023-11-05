@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "vstats"
+version = "0.0.1"
+description = "A small python package providing tools for statistics"
+authors = ["J. Janka"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "=3.8.1,<4.0"  # Dec. 18 2019
+statsmodels = ">=0.12.0"  # Aug. 27 2020
+scipy = ">=1.5.1"  # July 5 2020
+pandas = ">=1.0.1"  # Feb. 5 2020
+numpy = ">=1.19.5"  # Jan. 5 2020
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.2"
+flake8 = "^6.0.0"
+isort = "^5.12.0"
+mypy = "^1.1.1"
+sphinx = "^5.3.0"
+sphinx-rtd-theme = "^1.2.0"
+jupyterlab = "^3.6.1"
+myst-nb = "^0.17.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
