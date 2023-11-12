@@ -11,3 +11,7 @@
 ## v0.0.3 (05/11/2023)
 
 - Adjusted documentation.
+
+## v0.0.4 (12/11/2023)
+
+- Published documentation on readthedocs.org.
